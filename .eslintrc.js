@@ -25,5 +25,6 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+        "@typescript-eslint/explicit-function-return-type": "warn"
     }
 }
