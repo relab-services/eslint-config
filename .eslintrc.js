@@ -18,9 +18,6 @@ module.exports = {
             "parserOptions": {
                 "sourceType": "script"
             },
-            "rules": {
-                "@typescript-eslint/explicit-function-return-type": "warn"
-            }
         }
     ],
     "parserOptions": {
@@ -28,5 +25,6 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+        "@typescript-eslint/explicit-function-return-type": "warn"
     }
 }
