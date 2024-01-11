@@ -2,7 +2,7 @@
   "name": "@sergeyzwezdin/eslint-config-node",
   "version": "1.0.0",
   "description": "Shareable configuration for eslint (node)",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "scripts": {},
   "files": [
     ".eslintrc.js"
