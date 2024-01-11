@@ -5,7 +5,8 @@
   "main": ".eslintrc.js",
   "scripts": {},
   "files": [
-    ".eslintrc.js"
+    ".eslintrc.js",
+    ".eslintignore"
   ],
   "repository": {
     "type": "git",
