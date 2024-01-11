@@ -26,5 +26,10 @@ module.exports = {
     },
     "rules": {
         "@typescript-eslint/explicit-function-return-type": "warn"
-    }
+    },
+    "ignorePatterns": [
+        'node_modules/',
+        '**/node_modules/',
+        '/**/node_modules/*'
+    ]
 }
