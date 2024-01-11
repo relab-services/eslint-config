@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergeyzwezdin/eslint-config-node.git"
+    "url": "git+https://github.com/sergeyzwezdin/eslint-config.git"
   },
   "publishConfig": {
     "access": "public"
@@ -21,9 +21,9 @@
   "author": "Sergey Zwezdin (sergey@zwezdin.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sergeyzwezdin/eslint-config-node/issues"
+    "url": "https://github.com/sergeyzwezdin/eslint-config/issues"
   },
-  "homepage": "https://github.com/sergeyzwezdin/eslint-config-node#readme",
+  "homepage": "https://github.com/sergeyzwezdin/eslint-config#readme",
   "devDependencies": {
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.6",
