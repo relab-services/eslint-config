@@ -20,7 +20,7 @@ npm install @sergeyzwezdin/eslint-config-node --save-dev
 ```json
 {
   "scripts": {
-    "lint": "eslint"
+    "lint": "eslint */**/*.ts*"
   }
 }
 ```
