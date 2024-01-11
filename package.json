@@ -1,6 +1,6 @@
 {
   "name": "@sergeyzwezdin/eslint-config-node",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shareable configuration for eslint (node)",
   "main": ".eslintrc.js",
   "scripts": {},
