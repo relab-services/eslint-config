@@ -48,7 +48,6 @@ module.exports = {
         "no-useless-escape": "warn",
         "no-void": "off",
         "prefer-const": "warn",
-        "react-hooks/exhaustive-deps": "error",
         "spaced-comment": "warn"
     },
     "ignorePatterns": [
