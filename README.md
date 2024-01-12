@@ -1,6 +1,6 @@
 # @sergeyzwezdin/eslint-config
 
-Shareable configuration for eslint (node)
+Shareable configuration for eslint
 
 ## Usage
 
@@ -10,16 +10,35 @@ npm install eslint --save-dev
 npm install @sergeyzwezdin/eslint-config --save-dev
 ```
 2. Update `package.json` 
+
+**Node project:**
 ```json
 {
   "scripts": {
     "lint": "eslint . --ext ts,tsx"
   },
   "eslintConfig": {
-    "extends": "@sergeyzwezdin/eslint-config"
+    "extends": "@sergeyzwezdin/eslint-config/node"
   }
 }
 ```
+
+**Next project:**
+```json
+{
+  "scripts": {
+    "lint": "eslint . --ext ts,tsx"
+  },
+  "eslintConfig": {
+    "extends": "@sergeyzwezdin/eslint-config/next"
+  }
+}
+```
+
+## Available configurations
+
+- Node: `@sergeyzwezdin/eslint-config/node`
+- Next: `@sergeyzwezdin/eslint-config/next`
 
 ## License
 
