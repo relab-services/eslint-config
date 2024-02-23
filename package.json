@@ -12,7 +12,8 @@
     "url": "git+https://github.com/relab-services/eslint-config.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "keywords": [
     "eslint",
