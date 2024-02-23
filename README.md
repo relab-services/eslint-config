@@ -1,13 +1,13 @@
-# @sergeyzwezdin/eslint-config
+# @relab/eslint-config
 
 Shareable configuration for eslint
 
 ## Usage
 
-1. Install packages `eslint` and `@sergeyzwezdin/eslint-config`
+1. Install packages `eslint` and `@relab/eslint-config`
 ```bash
 npm install eslint --save-dev
-npm install @sergeyzwezdin/eslint-config --save-dev
+npm install @relab/eslint-config --save-dev
 ```
 2. Update `package.json` 
 
@@ -18,7 +18,7 @@ npm install @sergeyzwezdin/eslint-config --save-dev
     "lint": "eslint . --ext ts,tsx"
   },
   "eslintConfig": {
-    "extends": "@sergeyzwezdin/eslint-config/node"
+    "extends": "@relab/eslint-config/node"
   }
 }
 ```
@@ -30,15 +30,15 @@ npm install @sergeyzwezdin/eslint-config --save-dev
     "lint": "eslint . --ext ts,tsx"
   },
   "eslintConfig": {
-    "extends": "@sergeyzwezdin/eslint-config/next"
+    "extends": "@relab/eslint-config/next"
   }
 }
 ```
 
 ## Available configurations
 
-- Node: `@sergeyzwezdin/eslint-config/node`
-- Next: `@sergeyzwezdin/eslint-config/next`
+- Node: `@relab/eslint-config/node`
+- Next: `@relab/eslint-config/next`
 
 ## License
 
